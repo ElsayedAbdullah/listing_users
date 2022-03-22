@@ -1,0 +1,93 @@
+.app-wrapper {
+  background-color: #eee;
+  padding: 1rem 3rem;
+  width: 30rem;
+  margin: 5rem auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+}
+
+.form input[type="text"] {
+  flex: 1;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.btn-violet {
+  background-color: violet;
+  color: #fff;
+}
+.btn-green {
+  background-color: rgb(34, 196, 61);
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+}
+
+.users .user-item {
+  font-size: 18px;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.users .user-item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.btn {
+  margin-left: 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.delete-btn {
+  background-color: orangered;
+  color: wheat;
+}
+
+.preview {
+  background-color: #00bcd4;
+  padding: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.update-form {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.update-form input {
+  width: 60%;
+  background: white;
+  border: 0;
+  font-size: 18px;
+  padding-left: 10px;
+  outline: none;
+}
+.update-form button {
+  width: 34%;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+}
